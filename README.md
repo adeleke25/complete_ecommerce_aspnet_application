@@ -35,3 +35,13 @@ Secure handling of sessions (token revocation, refresh).
 Manage personal information, security settings, and password changes.
 ### Authorization Middleware:
 Role-based route protection (e.g., admin routes, user routes).
+
+
+# Getting Started
+## Add Innitial Models:
+### 1. Actor Model
+### 1. Produce Model
+### 1. Cinema Model
+### 1. Movie Model
+
+
