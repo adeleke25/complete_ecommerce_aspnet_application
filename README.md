@@ -40,6 +40,7 @@ Role-based route protection (e.g., admin routes, user routes).
 # Getting Started
 ## Add Innitial Models:
 ### 1. Actor Model
+![ActorModel](https://github.com/user-attachments/assets/523ae78e-f000-42c8-a69a-971c59bb4a1e)
 ### 2. Produce Model
 ### 3. Cinema Model
 ### 4. Movie Model
