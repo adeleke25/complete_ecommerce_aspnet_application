@@ -85,6 +85,7 @@ operations on entities in an object-oriented manner
 #### B. CinamaModel- public List<Movie> Movies { get; set; }
 #### C. ActorModel-   public List<Actor_Movie> Actor_Movie { get; set; }
 #### D. MovieModel-   public List<Actor_Movie> Actor_Movie { get; set; }
+![DbContext](https://github.com/user-attachments/assets/00d09a82-a90d-42e1-beec-2b1827074edd)
 
 
 
