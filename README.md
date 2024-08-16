@@ -51,7 +51,7 @@ Role-based route protection (e.g., admin routes, user routes).
 ![MovieCategoryModel](https://github.com/user-attachments/assets/5dc8cc26-069e-485d-9e07-675d6bf4aade)
 
 ## Add DbContext file:
-DbContext is a central class in Entity Framework (EF), an Object-Relational Mapping (ORM) framework for .NET applications. It acts as a bridge between the application and the database, enabling CRUD (Create, Read, Update, Delete) 
+DbContext is a central class in Entity Framework (EF), an Object-Relational Mapping (ORM) framework for .NET applications. It acts as a bridge between the application and the database, enabling CRUD (Create, Read, Update, Delete). It's called the Translated file because  it serves as the Translator between the models and the DB. Models are used to SEND & GET from DB.But for DB(SQL) to understand the code (C#) and vice-versa, you need a file in between which is DBContext which understand both C# and SQL languages.
 operations on entities in an object-oriented manner
 ## Key Responsibilities of DbContext:
 ### Database Interaction: It provides APIs to query the database, execute commands, and track changes to entities.
