@@ -1,4 +1,4 @@
-﻿namespace Virtual_Ticket.Data
+﻿namespace Virtual_Ticket.Data.Enums
 {
 
     public enum MovieCategory
@@ -7,7 +7,7 @@
         Comedy,
         Drama,
         Documentary,
-        
+
     }
     //An enum (short for enumeration) is a distinct data type that consists of a set of
     //named values. In this case, the MovieCategory enum represents different categories
