@@ -74,6 +74,9 @@ operations on entities in an object-oriented manner
 ### From Application to Database: When you create, update, or delete data in your application, the changes are sent through the DbContext to the database.
 ### From Database to Application: When you query or read data, the data is fetched from the database and returned to the application through the DbContext.
 
+##STEPS
+###1. Create eticketDbContext class in the Data folder and Inject the base class. This is important for this file to be official traslator betwee the C# models & SQL code
+
 
 
 
