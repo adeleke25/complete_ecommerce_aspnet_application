@@ -74,9 +74,17 @@ operations on entities in an object-oriented manner
 ### From Application to Database: When you create, update, or delete data in your application, the changes are sent through the DbContext to the database.
 ### From Database to Application: When you query or read data, the data is fetched from the database and returned to the application through the DbContext.
 
-##STEPS
+## STEPS:
 
-###1. Create eticketDbContext class in the Data folder and Inject the base class. This is important for this file to be official traslator betwee the C# models & SQL code
+### 1. Create eticketDbContext class in the Data folder and Inject the base class (DbCOntext) which is important for this file to be the official traslator betwee the C# models & SQL code. 
+### Note that you have import the namespace. To import the namespace, in have first install Ms.EntityFrameworkCore package.
+### 2. Define a constructor with DbContextOptions parameter named eticketDbContext
+### 3. Add DbContext service to the container in Programe.cs file
+### 4. Configure model Relationships. Add relationshiop property to the models accordingly:
+#### A. ProducerModel- public List<Movie> Movies { get; set; } .....One to Many
+#### B. CinamaModel- public List<Movie> Movies { get; set; }
+#### C. ActorModel-   public List<Actor_Movie> Actor_Movie { get; set; }
+#### D. MovieModel-   public List<Actor_Movie> Actor_Movie { get; set; }
 
 
 
