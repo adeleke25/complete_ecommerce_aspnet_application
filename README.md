@@ -75,6 +75,7 @@ operations on entities in an object-oriented manner
 ### From Database to Application: When you query or read data, the data is fetched from the database and returned to the application through the DbContext.
 
 ##STEPS
+
 ###1. Create eticketDbContext class in the Data folder and Inject the base class. This is important for this file to be official traslator betwee the C# models & SQL code
 
 
