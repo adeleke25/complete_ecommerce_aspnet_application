@@ -12,5 +12,8 @@ namespace Virtual_Ticket.Models
         public string Bio { get; set; }
 
 
+        //Relationshiop
+        public List<Actor_Movie> Actor_Movie { get; set; }
+
     }
 }

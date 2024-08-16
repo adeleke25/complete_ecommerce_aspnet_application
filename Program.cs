@@ -1,3 +1,5 @@
+using Virtual_Ticket.Data;
+
 namespace Virtual_Ticket
 {
     public class Program
@@ -8,6 +10,7 @@ namespace Virtual_Ticket
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<eticketDbContext>();
 
             var app = builder.Build();
 
