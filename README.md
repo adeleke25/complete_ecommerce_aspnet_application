@@ -50,6 +50,16 @@ Role-based route protection (e.g., admin routes, user routes).
 ### 5. MovieCategoryModel
 ![MovieCategoryModel](https://github.com/user-attachments/assets/5dc8cc26-069e-485d-9e07-675d6bf4aade)
 
+## Add DbContext file:
+DbContext is a central class in Entity Framework (EF), an Object-Relational Mapping (ORM) framework for .NET applications. It acts as a bridge between the application and the database, enabling CRUD (Create, Read, Update, Delete) 
+operations on entities in an object-oriented manner
+## Key Responsibilities of DbContext:
+# Database Interaction: It provides APIs to query the database, execute commands, and track changes to entities.
+# Entity Management: It manages the lifecycle of entities, such as adding, updating, and deleting objects.
+# Change Tracking: It keeps track of changes made to objects so that when you call SaveChanges(), it knows which entities need to be inserted, updated, or deleted in the database.
+# Data Access: It allows for querying the database using LINQ (Language Integrated Query) and also allows execution of raw SQL queries when needed.
+# Migration Support: It can handle database migrations, making it easy to evolve your database schema over time as your application's model changes.
+
 
 
 
