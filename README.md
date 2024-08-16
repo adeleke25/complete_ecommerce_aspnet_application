@@ -42,7 +42,15 @@ Role-based route protection (e.g., admin routes, user routes).
 ### 1. Actor Model
 ![ActorModel](https://github.com/user-attachments/assets/523ae78e-f000-42c8-a69a-971c59bb4a1e)
 ### 2. Produce Model
+
 ### 3. Cinema Model
+![CinemaModel](https://github.com/user-attachments/assets/cb061994-3860-4eac-a249-5fd181c6015e)
 ### 4. Movie Model
+![MovieModel](https://github.com/user-attachments/assets/7e7d728c-b5a2-4cd8-88d3-f73b47f5ed3f)
+### 5. MovieCategoryModel
+![MovieCategoryModel](https://github.com/user-attachments/assets/5dc8cc26-069e-485d-9e07-675d6bf4aade)
+
+
+
 
 
