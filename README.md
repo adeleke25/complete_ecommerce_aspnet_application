@@ -89,6 +89,8 @@ operations on entities in an object-oriented manner
 
 ## Configure SQLServer:
 ### 1. From ServerExplorer, RightClick Data Connections => Create New QSL =>
+### 2. Add first Migration
+
  
 
 
