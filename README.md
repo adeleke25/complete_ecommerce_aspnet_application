@@ -87,6 +87,10 @@ operations on entities in an object-oriented manner
 #### D. MovieModel-   public List<Actor_Movie> Actor_Movie { get; set; }
 ![DbContext](https://github.com/user-attachments/assets/00d09a82-a90d-42e1-beec-2b1827074edd)
 
+## Configure SQLServer:
+### 1. From ServerExplorer, RightClick Data Connections => Create New QSL =>
+ 
+
 
 
 
