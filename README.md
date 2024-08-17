@@ -90,6 +90,7 @@ operations on entities in an object-oriented manner
 ## Configure SQLServer:
 ### 1. From ServerExplorer, RightClick Data Connections => Create New QSL =>
 ### 2. Add first Migration
+![Db_Migration_Shema](https://github.com/user-attachments/assets/a214a235-2a99-4771-82d6-aa9998df177d)
 
  
 
