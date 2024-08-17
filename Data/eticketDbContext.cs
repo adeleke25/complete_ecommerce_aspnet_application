@@ -5,7 +5,8 @@ namespace Virtual_Ticket.Data
 {
     public class eticketDbContext : DbContext //Injection of base class
     {
-        public eticketDbContext(DbContextOptions<eticketDbContext> options) : base(options) //constructor
+        public eticketDbContext(DbContextOptions<eticketDbContext> options)
+            : base(options) //constructor
         {
 
         }

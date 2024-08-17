@@ -14,9 +14,8 @@ namespace Virtual_Ticket.Models
         public double Price { get; set; }
         public string ImageURL { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime startDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public DateTime endDate { get; set; }
+         public DateTime EndDate { get; set; }
+       
         public MovieCategory MovieCategory { get; set; }
 
         //Relationship
