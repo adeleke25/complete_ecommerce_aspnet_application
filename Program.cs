@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Virtual_Ticket.Data;
 
 namespace Virtual_Ticket
@@ -10,7 +11,9 @@ namespace Virtual_Ticket
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddDbContext<eticketDbContext>();
+            builder.Services.AddDbContext<eticketDbContext>(options =>
+             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+
 
             var app = builder.Build();
 
