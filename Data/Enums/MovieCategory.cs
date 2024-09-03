@@ -7,6 +7,8 @@
         Comedy,
         Drama,
         Documentary,
+        Horror,
+        Cartoon,
 
     }
     //An enum (short for enumeration) is a distinct data type that consists of a set of
