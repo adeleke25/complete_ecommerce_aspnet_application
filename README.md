@@ -94,6 +94,13 @@ operations on entities in an object-oriented manner
 ### 3. Datababe_Relationship_Diagrame
 ![Relationship_Diagram](https://github.com/user-attachments/assets/f28105e0-d9d9-438c-878d-7f5907b0cbc0)
 
+## Data Seeding:
+### After we have established the relationships between entities by adding appDBContext file and configure the SQLServer by creating the DB also adding the DB tables using the migrations, it is time to update these tables with some dumy data:
+#### 1. Add a class file in Data Folder called AppdDBInitializer ==> Add a static class named seed
+#### 2. Create application services
+#### 3. Inside application services,  Create a reference to AppDBContext file. This is because that is the file we use to send to abd Get from DB
+#### 4. Add all Dummy data
+                
  
 
 
