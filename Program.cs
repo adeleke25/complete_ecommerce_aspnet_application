@@ -38,6 +38,10 @@ namespace Virtual_Ticket
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
+
+            //Seed database
+
+            AppdDBInitializer.Seed(app);
         }
     }
 }
