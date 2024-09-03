@@ -100,6 +100,11 @@ operations on entities in an object-oriented manner
 #### 2. Create application services
 #### 3. Inside application services,  Create a reference to AppDBContext file. This is because that is the file we use to send to abd Get from DB
 #### 4. Add all Dummy data
+![Dummy5](https://github.com/user-attachments/assets/317a9fc1-38fa-4459-b677-0ca27e45b86e)
+![Dummy4](https://github.com/user-attachments/assets/de3b78fe-9b98-492e-a5ef-b9514296df5a)
+![Dummy3](https://github.com/user-attachments/assets/25fe7ec1-66f4-4f55-8a62-8bbfc5b1ae7f)
+![Dummy2](https://github.com/user-attachments/assets/d362ea83-b394-48d0-95d8-13e601239ed1)
+![Dummy1](https://github.com/user-attachments/assets/2614e3e9-c1a0-40dd-8a3e-e7a757a0db78)
                 
  
 
