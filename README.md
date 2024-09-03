@@ -108,9 +108,9 @@ operations on entities in an object-oriented manner
 
 ## Adding MVC Controllers:
 Controllers are a crucial part of the MVC architecture. They are responsible for handling user input and interactions. Here’s a breakdown of their role:
-### 1. Receive Input: Controllers receive input from the user through the View.
-### 2. Process Data: They process this input, often interacting with the Model to retrieve or update data.
-### 3. Update View: Finally, they update the View to reflect any changes in the data.
+#### 1. Receive Input: Controllers receive input from the user through the View.
+#### 2. Process Data: They process this input, often interacting with the Model to retrieve or update data.
+#### 3. Update View: Finally, they update the View to reflect any changes in the data.
 For example, in a web application, if a user submits a form, the Controller will handle this request, process the data (perhaps saving it to a database via the Model), and then update the View to show a confirmation message or the updated data
 
 
