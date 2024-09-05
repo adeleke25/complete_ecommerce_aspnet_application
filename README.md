@@ -112,6 +112,11 @@ Controllers are a crucial part of the MVC architecture. They are responsible for
 #### 2. Process Data: They process this input, often interacting with the Model to retrieve or update data.
 #### 3. Update View: Finally, they update the View to reflect any changes in the data.
 For example, in a web application, if a user submits a form, the Controller will handle this request, process the data (perhaps saving it to a database via the Model), and then update the View to show a confirmation message or the updated data
+### Controllers
+![ActorController](https://github.com/user-attachments/assets/e1d6efd3-3a17-4823-a4d3-ed4899c2826c)
+![ProducersController](https://github.com/user-attachments/assets/0f297e8e-da16-498b-a7df-ecc0907143c3)
+![ProductModel](https://github.com/user-attachments/assets/351ea197-21ff-41fc-bc05-a47cf8f76793)
+
 
 
                 
