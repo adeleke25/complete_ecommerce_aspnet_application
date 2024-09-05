@@ -21,7 +21,7 @@ namespace Virtual_Ticket.Data
             modelBuilder.Entity<Actor_Movie>().HasOne(m => m.Movie).WithMany(am => am.Actor_Movie).HasForeignKey(
                 m => m.MovieId);
 
-            modelBuilder.Entity<Actor_Movie>().HasOne(m => m.Actor).WithMany(am => am.Actor_Movie).HasForeignKey(
+            modelBuilder.Entity<Actor_Movie>().HasOne(m => m.Actor).WithMany(am => am.ActorMovie).HasForeignKey(
                 m => m.ActorId);
 
             base.OnModelCreating(modelBuilder);
