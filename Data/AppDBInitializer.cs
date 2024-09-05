@@ -1,23 +1,20 @@
-﻿using Virtual_Ticket.Data.Enums;
+﻿using System;
+using Virtual_Ticket.Data.Enums;
 using Virtual_Ticket.Models;
+using Microsoft.AspNetCore.Builder;
 
 namespace Virtual_Ticket.Data
 {
-    public class AppdDBInitializer
+
+    public class AppDbInitializer
     {
         public static void Seed(IApplicationBuilder applicationBuilder)
         {
-            //Create application services
             using (var serviceScope = applicationBuilder.ApplicationServices.CreateScope())
             {
-                // Create a reference to AppDBContext file. This is because that is the file we use to
-                // send to abd Get from DB
-
                 var context = serviceScope.ServiceProvider.GetService<eticketDbContext>();
 
                 context.Database.EnsureCreated();
-
-                // Add all data
 
                 //Cinema
                 if (!context.Cinemas.Any())
@@ -316,7 +313,6 @@ namespace Virtual_Ticket.Data
                     });
                     context.SaveChanges();
                 }
-
             }
 
         }
