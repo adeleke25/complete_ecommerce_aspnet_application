@@ -117,6 +117,12 @@ For example, in a web application, if a user submits a form, the Controller will
 ![ProducersController](https://github.com/user-attachments/assets/0f297e8e-da16-498b-a7df-ecc0907143c3)
 ![ProductModel](https://github.com/user-attachments/assets/351ea197-21ff-41fc-bc05-a47cf8f76793)
 
+###Views
+![ActorsView](https://github.com/user-attachments/assets/96e16b86-0ee7-4409-b635-d1aa2ae1d6c7)
+![CinemasView](https://github.com/user-attachments/assets/9fbe3a86-0004-42b7-9c42-56eb2ed8b338)
+![MoviesView](https://github.com/user-attachments/assets/29edfb25-8305-4245-9407-a1c40e9e034c)
+![ProducerView](https://github.com/user-attachments/assets/c43a1b8d-4614-42e6-a508-22200b19196d)
+
 
 
                 
