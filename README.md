@@ -136,10 +136,13 @@ Placing data retrieval code directly inside the controller is generally not cons
 #### Maintainability: Changes to business logic are isolated in the service layer, making it easier to update and maintain your application. If you need to change how a particular operation works, you only need to update the service, not every controller that uses it.
 #### Testability: Services can be unit tested independently of controllers and repositories. This makes it easier to write tests for your business logic and ensures that your application behaves as expected.
 
-### Step 1: Define the Service Interface. This interface declares the methods that the service will provide.
+### Step 1: Define the Service Interface. 
+#### This interface declares the methods that the service will provide.
 ![Service_Interface](https://github.com/user-attachments/assets/271a7eb2-1c91-46fc-9d90-6baa11df62f2)
 ### Step 2: Add and implement ActorService
 ![ActorService](https://github.com/user-attachments/assets/bdc76165-eac5-41a2-8cdc-eda771296afd)
+### Step 3: Register the service in the programe.cs file (builder.Services.AddScoped<IActorsService, ActorsService>();)
+This is important to avoid InvalidOperationException error (see below)
 
 
 
