@@ -123,6 +123,21 @@ For example, in a web application, if a user submits a form, the Controller will
 ![MoviesView](https://github.com/user-attachments/assets/29edfb25-8305-4245-9407-a1c40e9e034c)
 ![ProducerView](https://github.com/user-attachments/assets/c43a1b8d-4614-42e6-a508-22200b19196d)
 
+## Implementing the Service Layer
+we have learned so far how to get data from the database like movies actors but the code to retrieve the data has been written inside the controller which is not a good.
+Placing data retrieval code directly inside the controller is generally not considered a good practice. This approach can lead to several issues:
+#### Tight Coupling: When controllers handle data access, they become tightly coupled to the data source. This makes it harder to change the data source or the way data is accessed without modifying the controller.
+#### Code Duplication: If multiple controllers need to access the same data, you might end up duplicating the same data access code in multiple places, which is inefficient and error-prone.
+#### Single Responsibility Principle: According to this principle, a class should have only one reason to change. Controllers should be responsible for handling HTTP requests and responses, not for data access.
+#### NB: The service layer is an additional layer in your application that sits between the controllers and the data access layer (repositories). Its primary purpose is to encapsulate business logic, making your application more modular and easier to maintain.
+### Why Use a Service Layer?
+#### Separation of Concerns: By moving business logic out of controllers and repositories into services, you keep each layer focused on a single responsibility. Controllers handle HTTP requests, services handle business logic, and repositories handle data access.
+#### Reusability: Business logic encapsulated in services can be reused across different parts of your application. For example, if multiple controllers need to perform the same business operation, they can all use the same service.
+#### Maintainability: Changes to business logic are isolated in the service layer, making it easier to update and maintain your application. If you need to change how a particular operation works, you only need to update the service, not every controller that uses it.
+#### Testability: Services can be unit tested independently of controllers and repositories. This makes it easier to write tests for your business logic and ensures that your application behaves as expected.
+
+### Step 1: Define the Service Interface. This interface declares the methods that the service will provide.
+### Step 2: Add and implement ActorService
 
 
                 
