@@ -137,7 +137,11 @@ Placing data retrieval code directly inside the controller is generally not cons
 #### Testability: Services can be unit tested independently of controllers and repositories. This makes it easier to write tests for your business logic and ensures that your application behaves as expected.
 
 ### Step 1: Define the Service Interface. This interface declares the methods that the service will provide.
+![Service_Interface](https://github.com/user-attachments/assets/271a7eb2-1c91-46fc-9d90-6baa11df62f2)
 ### Step 2: Add and implement ActorService
+![ActorService](https://github.com/user-attachments/assets/bdc76165-eac5-41a2-8cdc-eda771296afd)
+
+
 
 
                 
