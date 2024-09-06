@@ -143,6 +143,7 @@ Placing data retrieval code directly inside the controller is generally not cons
 ![ActorService](https://github.com/user-attachments/assets/bdc76165-eac5-41a2-8cdc-eda771296afd)
 ### Step 3: Register the service in the programe.cs file:
 (builder.Services.AddScoped<IActorsService, ActorsService>();)
+
 This is important to avoid InvalidOperationException error (see below):
 ![InvalidOperationException_Actorpage](https://github.com/user-attachments/assets/9ee2c684-736e-432e-8bf3-8623ba09d6e3)
 
