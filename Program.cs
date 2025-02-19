@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Virtual_Ticket.Data;
+using Virtual_Ticket.Data.Services;
 
 namespace Virtual_Ticket
 {
@@ -13,6 +14,8 @@ namespace Virtual_Ticket
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<eticketDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+            builder.Services.AddScoped<IActorsService, ActorsService>();
+
 
             var app = builder.Build();
 
@@ -25,7 +28,7 @@ namespace Virtual_Ticket
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-
+            
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

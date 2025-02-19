@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Virtual_Ticket.Data;
+using Virtual_Ticket.Data.Services;
 
 namespace Virtual_Ticket.Controllers
 {
@@ -8,16 +9,16 @@ namespace Virtual_Ticket.Controllers
     public class ActorsController : Controller
     {
         //Inject AppDbContext to send data to and get data from DB
-        private readonly eticketDbContext _context;
+        private readonly IActorsService _service;
 
-        public ActorsController(eticketDbContext context)
+        public ActorsController(IActorsService service)
         {
-            _context = context;
+            _service = service;
         }
-        public IActionResult Index()
+        public async Task <IActionResult> Index()
         {
             
-           var data = _context.Actors.ToList();
+           var data = await _service.GetAll();
             return View(data);
         }
     }
